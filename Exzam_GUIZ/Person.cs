@@ -51,13 +51,6 @@ namespace Exam_Project
             login = Login;
             password = Password;
         }
-
-        //public Person(string name, string surname)
-        //{
-        //    this.name = name;
-        //    this.surname = surname;
-        //}
-
         public void Input()
         {
             Console.WriteLine("Enter your name: ");
@@ -66,7 +59,6 @@ namespace Exam_Project
             surname = Console.ReadLine();
             Console.WriteLine("Enter your Date of birth: ");
             dob = Console.ReadLine();
-
             string symbols1 = name + surname + dob;
             StringBuilder log = new StringBuilder();
             Random random = new Random();

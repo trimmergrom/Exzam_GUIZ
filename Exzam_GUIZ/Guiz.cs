@@ -54,8 +54,7 @@ namespace Exam_Project
         }
         public virtual int PassingTheGuiz(List<List<string>> Guiz, int index)
         {
-            Statistics rigth = new Statistics();
-            Person p = new Person();
+            Statistics rigth = new Statistics();            
             int c = 0;
             for (int i = 0; i < Guiz[0].Count; i++)
             {

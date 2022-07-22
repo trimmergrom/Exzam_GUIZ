@@ -28,7 +28,7 @@ namespace Exam_Project
             }
         }
         public Statistics() { }
-        public object Clone()
+        public new object Clone()
         {
             return new Statistics(Login, name, surname, generalcount);
         }
